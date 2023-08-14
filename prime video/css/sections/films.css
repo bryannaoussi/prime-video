@@ -1,0 +1,28 @@
+.films{
+    padding: 0 70px 0 70px;
+}
+
+
+p{
+    font-size: 20px;
+    font-weight: 600;
+}
+.film__ditails p{
+    margin-top: 75px;
+}
+.films__image{
+    margin-top: 15px;
+}
+.films__image img{
+    width: 255px;
+    height: 135px;
+    border-radius: 10px;
+    border: none;
+    outline: none;
+}
+.films__image{
+    display: grid;
+    grid-template-columns: 255px 255px 255px 255px 255px;
+    column-gap: 25px;
+    row-gap: 25px;
+}
